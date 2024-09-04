@@ -25,6 +25,7 @@ const Row = ({ title, id, fetchUrl, isLargeRow }) => {
     try {
       const request = await axios.get(fetchUrl);
       setMovies(request.data.results); // "results"로 변경
+      console.log(request.data.results);
     } catch (error) {
       console.error("Error fetching movies:", error);
     }
