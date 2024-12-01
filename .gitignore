@@ -10,7 +10,7 @@
 
 # production
 /build
-
+netflixclone.pem
 # misc
 .DS_Store
 .env.local
